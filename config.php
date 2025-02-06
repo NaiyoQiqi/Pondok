@@ -8,10 +8,10 @@ if($maintenance == 1) {
 }
 // database
 $config['db'] = array(
-	'host' => 'localhost',
+	'host' => 'mysql.railway.internal',
 	'name' => 'railway',
 	'username' => 'root',
-	'password' => 'NaiyouQiqi132'
+	'password' => 'IDczAsuYBydMOcGtlNDCZwBgwLfIjGyS'
 );
 
 $conn = mysqli_connect($config['db']['host'], $config['db']['username'], $config['db']['password'], $config['db']['name']);
