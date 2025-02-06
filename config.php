@@ -8,10 +8,10 @@ if($maintenance == 1) {
 }
 // database
 $config['db'] = array(
-	'host' => 'mysql-production-a441.up.railway.app',
-	'name' => 'railway',
-	'username' => 'root',
-	'password' => 'IDczAsuYBydMOcGtlNDCZwBgwLfIjGyS'
+	'host' => 'sql112.infinityfree.com',
+	'name' => 'if0_38256644_NaiyouQiqi',
+	'username' => 'if0_38256644',
+	'password' => 'NaiyouQiqi132'
 );
 
 $conn = mysqli_connect($config['db']['host'], $config['db']['username'], $config['db']['password'], $config['db']['name']);
