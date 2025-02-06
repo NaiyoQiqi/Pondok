@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y default-mysql-client && docker-php-ext-
 COPY . /var/www/html/
 
 # Set environment variables yang akan digunakan oleh aplikasi
-ENV MYSQLHOST=mysql.railway.internal
+ENV MYSQLHOST=https://mysql-production-a441.up.railway.app/
 ENV MYSQLPORT=3306
 ENV MYSQLUSER=root
 ENV MYSQLPASSWORD=IDczAsuYBydMOcGtlNDCZwBgwLfIjGyS
