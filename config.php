@@ -9,9 +9,9 @@ if($maintenance == 1) {
 // database
 $config['db'] = array(
 	'host' => 'localhost',
-	'name' => 'nasr4381_pedia',
-	'username' => 'nasr4381_pedia',
-	'password' => 'nasr4381_pedia'
+	'name' => 'railway',
+	'username' => 'root',
+	'password' => 'NaiyouQiqi132'
 );
 
 $conn = mysqli_connect($config['db']['host'], $config['db']['username'], $config['db']['password'], $config['db']['name']);
