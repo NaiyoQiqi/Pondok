@@ -8,7 +8,7 @@ if($maintenance == 1) {
 }
 // database
 $config['db'] = array(
-	'host' => 'https://mysql-production-a441.up.railway.app/',
+	'host' => 'mysql-production-a441.up.railway.app/',
 	'name' => 'railway',
 	'username' => 'root',
 	'password' => 'IDczAsuYBydMOcGtlNDCZwBgwLfIjGyS'
