@@ -15,10 +15,10 @@ if ($maintenance == 1) {
 
 // Database configuration
 $config['db'] = array(
-    'host' => 'sql312.byethost7.com',  // Host Database
-    'name' => 'b7_38260388_NaiyouQiqi',  // Nama Database
-    'username' => 'b7_38260388',         // Username Database
-    'password' => 'NaiyouQiqi132'         // Password Database
+    'host' => getenv('DB_HOST'),
+    'name' => getenv('DB_NAME'),
+    'username' => getenv('DB_USER'),
+    'password' => getenv('DB_PASS')
 );
 
 // Cek koneksi database
