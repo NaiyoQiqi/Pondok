@@ -15,9 +15,9 @@ if ($maintenance == 1) {
 
 // Database configuration
 $config['db'] = array(
-    'host' => 'sql112.infinityfree.com',  // Host Database
-    'name' => 'if0_38256644_NaiyouQiqi',  // Nama Database
-    'username' => 'if0_38256644',         // Username Database
+    'host' => 'sql312.byethost7.com',  // Host Database
+    'name' => 'b7_38260388_NaiyouQiqi',  // Nama Database
+    'username' => 'b7_38260388',         // Username Database
     'password' => 'NaiyouQiqi132'         // Password Database
 );
 
